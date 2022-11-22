@@ -65,10 +65,13 @@ button:hover{
 
 img{
        height: 99%;
-       width: 99%;
+       /* width: 99%; */
        overflow: hidden;
        padding: 20px;
-       margin: 30px;
+       /* margin: 30px; */
+       max-width: 1000px;
+       width: 90px;
+       margin: 0 auto;
        /* border-radius: 50%; */
        /* display: inline; */
        
@@ -79,7 +82,10 @@ img{
        align-items: center;
        justify-content: center;
        gap: 2.5rem;
-       max-width: 68.75rem;
+       /* max-width: 1000px;
+       width: 90px;
+       margin: 0 auto; */
+       /* max-width: 68.75rem; */
        /* flex: auto; */
        /* margin: auto; */
 }
@@ -111,9 +117,14 @@ h2{
        width: 120%;
        /* font-size: 100px; */
        /* padding-left: 50px; */
-       align-items: center;
+       /* align-items: center; */
        /* padding-bottom: 30px; */
-       justify-content: space-around;
+       /* justify-content: space-around; */
+}
+.about{
+       display: flex;
+       width: 100%;
+       justify-content:space-between;
 }
 h3{
        /* padding-top: 95px; */
